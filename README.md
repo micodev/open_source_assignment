@@ -3,7 +3,7 @@
 Realtime Multi translator is a python program that translate from many language to many without waste of time (pre-alpha versin)
 
   - Fast
-  - Simple [GUI][df1]
+  - Simple GUI
   - Very good for practicing
 
 > The main goal of this app is
