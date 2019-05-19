@@ -31,7 +31,7 @@ def checkit(event=""):
                 tr = TextBlob(from_.get()).translate(from_lang='auto',to=to_suffix[i])
             except:
                 tr = from_.get()
-            label = Label(lbf,text=tr)
+            label = Label(lbf,text=tr,bg="red")
             label.grid(column=0,row=0)
             lbf.grid(column=0,row=i+3,columnspan=4)
             lbfs.append(lbf)
